@@ -10,7 +10,7 @@
         <referenceBlock name="copyright" remove="true" />
         <referenceBlock name="logo">
             <arguments>
-                <argument name="logo_file" xsi:type="string">images/bunge.png</argument>
+                <argument name="logo_file" xsi:type="string">images/witcher.png</argument>
                 <argument name="logo_width" xsi:type="number">244</argument>
                 <argument name="logo_height" xsi:type="number">57</argument>
             </arguments>
