@@ -1,4 +1,4 @@
-# You must run the backend to visualize this project, see instructions below.
+# VOCÊ PRECISA DE UMA PLATAFORMA ADOBE COMMERCE PARA RODAR O PROJETO. (Você pode visualizar o resultado pelo vídeo abaixo)
 
 ###  Versão README [English](./README-EN.md)
 
@@ -33,7 +33,8 @@
 ## Como rodar:
 
 - Você precisa possuir uma loja Magento instalado no seu computador: [Tutorial aqui] (https://www.magenteiro.com/blog/magento-2/instalar-magento-2-tutorial/)
+- Para reproduzir na sua loja este resultado você deve colocar estes arquivos no mesmo caminho relativo da pasta deste repositório (depois das duas pastas chamadas "academia" que podem ter o nome que desejar). É possivél tambem utilizar fallback ao invés de "extension".
 
 ## Video Preview (Youtube)
 
-[![Watch the video](https://img.youtube.com/vi/So8afPRb9TU/maxresdefault.jpg)](https://youtu.be/So8afPRb9TU)
+[![Watch the video](https://img.youtube.com/vi/vqYf1iDuWT0/maxresdefault.jpg)](https://youtu.be/vqYf1iDuWT0)

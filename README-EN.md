@@ -19,39 +19,25 @@
 
 ### Simulation of e-commerce application
 
-- Header/Panel/Nav Less Styling
-- PLP - product listing page, a.k.a. category page
+- Theme change
+- Color palette change
+- Header/Panel/Nav Less Style
+- PLP - product listing page
+- Responsive
 
 ### Used in development
 
-- Magento
+- styling files .Less
+- The files were modified through '_extension Files' (the fallback was not used so you can copy and paste this code in your project if you want a specific styling done in that project), this files content does not have standard Magento commands, only my own styling.
 
 
-## How to run the Backend Endpoint
+## How to run Project
 
-- Open another terminal in the folder of this repository.
-- Utilize commands: `cd BackendEndpoint` `yarn install` `yarn build` `yarn start` and the server will run at localhost:4000
+- Você precisa possuir uma loja Magento instalado no seu computador: [Tutorial aqui] (https://www.magenteiro.com/blog/magento-2/instalar-magento-2-tutorial/).
+- To reproduce this result in your store you must place these files in the same relative path of the folder of this repository (after the two folders called "academia" that can have the name you want). It is also possible to use fallback instead of "_extension".
 
-You can also open the original repository with just the backend and follow the instructions in it.
-
-[Access here](https://github.com/scandiweb/junior-react-endpoint) to visualize the Endpoint repository.
-
-## How to run front-end
-
-[Access link here] (https://e-commerce-beta-henna.vercel.app/) to visualize this project build.
-
-Or utilize commands `yarn install` `yarn start` in the folder of this repository.
 
 ## Video Preview (Youtube)
 
-[![Watch the video](https://img.youtube.com/vi/So8afPRb9TU/maxresdefault.jpg)](https://youtu.be/So8afPRb9TU)
+[![Watch the video](https://img.youtube.com/vi/vqYf1iDuWT0/maxresdefault.jpg)](https://youtu.be/vqYf1iDuWT0)
 
-### Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-### Available Scripts you can run:
-
-`yarn install`
-`yarn start`
-`yarn build`
