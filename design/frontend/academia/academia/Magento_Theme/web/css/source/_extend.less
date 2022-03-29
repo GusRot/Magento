@@ -313,6 +313,61 @@
             }
         }
     }
+
+    .pagebuilder-column-group {
+        margin: 20px 0;
+
+        figure.banner-left-side {
+            text-align: start !important;
+        }
+
+        figure.banner-right-side {
+            text-align: end !important;
+        }
+
+        figure.banner-left-side,
+        figure.banner-right-side {
+            img {
+                max-width: 90% !important;
+            }
+        }
+    }
+
+    ol.product-items.widget-product-carousel.slick-initialized.slick-slider {
+        button.slick-prev.slick-arrow::before {
+            content: "";
+            background-image: url("@{baseDir}images/arrow-left.svg");
+        }
+
+        button.slick-next.slick-arrow::before {
+            content: "";
+            background-image: url("@{baseDir}images/arrow-right.svg");
+        }
+
+        button.slick-prev.slick-arrow,
+        button.slick-next.slick-arrow {
+            background-color: transparent;
+            border-radius: 50%;
+
+            &:hover {
+                background-color: @color_container;
+            }
+
+            &::before {
+                content: "";
+                background-size: contain;
+                background-position: center;
+                background-repeat: no-repeat;
+                width: 20px;
+                height: 30px;
+                padding: 10px;
+            }
+
+            &:hover::before {
+                filter: drop-shadow(0px -0.6px 4px @theme__color__primary);
+            }
+        }
+    }
 }
 
 .header {
@@ -413,4 +468,44 @@
 .navigation .level0.active > .level-top,
 .navigation .level0.has-active > .level-top {
     border-color: @secondary__color;
+}
+
+.product-item .product-item-details {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 150px;
+}
+
+.slick-slide {
+    width: 185px;
+    margin-right: 10px;
+}
+
+.product-item .price-box {
+    margin: 0;
+}
+
+.product-item-actions {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+
+    .tocart {
+        white-space: initial;
+    }
+
+    .actions-primary {
+        display: flex;
+        justify-content: center;
+
+        form {
+            display: flex;
+        }
+
+        button.action.tocart.primary {
+            border-radius: 10px;
+        }
+    }
 }

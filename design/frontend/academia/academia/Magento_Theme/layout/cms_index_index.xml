@@ -10,12 +10,13 @@
       xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
 
     <body>
-        <referenceContainer name="content">
+        <!-- <referenceContainer name="content">
             <block class="Magento\Framework\View\Element\Template" name="simple.block.example" template="Magento_Theme::html/custom.phtml">
               <arguments>
                   <argument name="custom_value" xsi:type="string">This is a custom value</argument>
               </arguments>
           </block>
-        </referenceContainer>
+        </referenceContainer> -->
+        <referenceBlock name="page.main.title" remove="true"/>
     </body>
 </page>
