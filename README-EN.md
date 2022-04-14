@@ -1,6 +1,6 @@
 # YOU NEED AN ADOBE COMMERCE PLATFORM TO RUN THE PROJECT. (You can view the result in the video below)
 
-###  Versão README [Português](./README-pt.md)
+###  Versão README [Português](./README.md)
 
 <div style="display: flex; gap:1rem;">
 <a href="#">
@@ -34,7 +34,7 @@
 
 ## How to run Project
 
-- Você precisa possuir uma loja Magento instalado no seu computador: [Tutorial aqui] (https://courses.m.academy/courses/set-up-magento-2-development-environment-docker/lectures/9205849).
+- You need to have a Magento store installed on your computer: [Tutorial here] (https://courses.m.academy/courses/set-up-magento-2-development-environment-docker/lectures/9205849).
 - To reproduce this result in your store you must place these files in the same relative path of the folder of this repository (after the two folders called "academia" that can have the name you want). It is also possible to use fallback instead of "_extension".
 - Grunt is recommended for this changes.
 
