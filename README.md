@@ -4,10 +4,10 @@
 
 <div style="display: flex; gap:1rem;">
 <a href="#">
-<img alt="Repository size" src="https://img.shields.io/github/repo-size/GusRot/Magento">
+<img alt="Repository size" src="https://img.shields.io/github/repo-size/GusRot/Magento-Styles">
 </a>
 <a href="#">
-<img alt="GitHub language count" src="https://img.shields.io/github/languages/count/GusRot/Magento?color=%2304D361" target="blank">
+<img alt="GitHub language count" src="https://img.shields.io/github/languages/count/GusRot/Magento-Styles?color=%2304D361" target="blank">
 </a>
 <a href="#">
 <img alt="Wakatime" src="https://wakatime.com/badge/user/04f1420e-9d57-410a-bdc7-d768fb237a52/project/28507fc9-dc3e-4aad-ba20-2527cfec66ac.svg">
@@ -21,6 +21,7 @@
 
 - Alteração do tema
 - Alteração da paleta de cores
+- Alteração da fonte padrão
 - Estilização do Header / NavBar / Panel
 - PLP - Listagem de produtos
 - Responsivo
@@ -32,8 +33,9 @@
 
 ## Como rodar:
 
-- Você precisa possuir uma loja Magento instalado no seu computador: [Tutorial aqui] (https://www.magenteiro.com/blog/magento-2/instalar-magento-2-tutorial/)
+- Você precisa possuir uma loja Magento instalado no seu computador: [Tutorial aqui] (https://www.magenteiro.com/blog/magento-2/instalar-magento-2-tutorial/). Você pode ver também o docker da M.academy no link do Read-me em [Inglês](./README-EN.md).
 - Para reproduzir na sua loja este resultado você deve colocar estes arquivos no mesmo caminho relativo da pasta deste repositório (depois das duas pastas chamadas "academia" que podem ter o nome que desejar). É possivél tambem utilizar fallback ao invés de "extension".
+- É recomendado o uso do grunt para garantir a aplicação de todos os estilos.
 
 ## Video Preview (Youtube)
 
